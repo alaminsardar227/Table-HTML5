@@ -7,8 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table.HTML5</title>
     <style>
-        td {
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
             border: 1px solid lightgray;
+            padding: 0 10px;
         }
     </style>
 </head>
@@ -16,31 +22,41 @@
 <body>
 
     <table>
-        <tr>
-            <td>1</td>
-            <td>Bill Gates</td>
-            <td>Mircosoft</td>
-            <td>$100</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Stav Jobs</td>
-            <td>Apples</td>
-            <td>$1200</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Larry Page</td>
-            <td>Google</td>
-            <td>$1100</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Mark Zuku</td>
-            <td>Facebook</td>
-            <td>$1300</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Mircosoft</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Stav Jobs</td>
+                <td>Apples</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberge</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
 
+        </tbody>
     </table>
 
 </body>
